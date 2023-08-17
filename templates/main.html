@@ -18,9 +18,17 @@
   </nav>
 
   <header class="banner">
-    <div class="parallax">
-      <h2>PLEASE CONTACT YOUR DESIRED LOCATIONS FOR CURRENT ZOMBIE APOCALYPSE UPDATES!</h2>
-    </div>
+    <div class="parallax"></div>
+ 
+    <!-- Adding Map Location -->
+
+      <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCDE--Q-pSNiB111a_fRoWkFUBfABYkOA&callback=initMap">
+      </script>
+
+      <script src="../scripts/app.js">  </script>
+
+    <!-- End adding Map Location -->
+  
   </header>
 
   <div class="container">
@@ -57,7 +65,18 @@
     </div>
   </div>
   
-  <!-- Repeat the structure for more boxes as needed -->
+  </div>
+
+ <!--Adding Map Location -->
+
+  <h2><center>PLEASE CHECK IF YOUR DESIRED STORED IS STILL OPEN
+    <br>FOR CURRENT ZOMBIE APOCALYPSE UPDATES!</h2>
+
+ 
+  <div class="map-container">
+    <div id="map" style="height: 600px; width: 800px;"></div>
+  </div>
+
 
   <script src="../scripts/script.js"></script>
 </body>
