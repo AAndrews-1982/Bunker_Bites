@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.menu-bar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  background-image: url('banner.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 200px 0;
+  color: white;
+}
+
+.banner h2 {
+  position: relative; /* Ensure text is on top of the background image */
+  z-index: 1;
+  color: black; /* Set the text color */
+}
+
+
+.container {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+  gap: 20px; /* Add some space between boxes */
+  padding: 20px;
+}
+
+.box {
+  width: 100%; /* Take full width of the grid column */
+  margin: 0; /* Remove margin to maintain consistent spacing */
+  padding: 10px;
+  border: none;
+  text-align: center;
+}
+
+.box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.box button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.box button:hover {
+  background-color: #555;
+}
