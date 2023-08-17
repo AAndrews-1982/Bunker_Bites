@@ -1,4 +1,3 @@
-/* styles.css */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -38,23 +37,22 @@ body {
 }
 
 .banner h2 {
-  position: relative; /* Ensure text is on top of the background image */
+  position: relative; 
   z-index: 1;
-  color: black; /* Set the text color */
+  color: black; 
 }
-
 
 .container {
   display: grid;
   flex-wrap: wrap;
-  grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
-  gap: 20px; /* Add some space between boxes */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
   padding: 20px;
 }
 
 .box {
-  width: 100%; /* Take full width of the grid column */
-  margin: 0; /* Remove margin to maintain consistent spacing */
+  width: 100%;
+  margin: 0; 
   padding: 10px;
   border: none;
   text-align: center;
@@ -65,14 +63,19 @@ body {
   height: auto;
 }
 
-.box button {
-  background-color: #333;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
+/* Styles for the 'Add to Cart' button link */
+.btn-cart {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.box button:hover {
-  background-color: #555;
+.btn-cart:hover {
+    background-color: #555;
 }
