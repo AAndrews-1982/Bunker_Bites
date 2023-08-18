@@ -1,6 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+
+  /* Background - image settings */
+  background-image: url('../images/backg_image.jpg');
+  background-size: cover; /* Adjust size of the image to the size of screen*/
+  background-repeat: no-repeat; /* avoid image repetition */
+  opacity: 1 ;
 }
 
 .menu-bar {
@@ -82,6 +88,7 @@ body {
 
 /* Style for smaller square map container */
 .map-container {
+  position: relative;	
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,3 +99,25 @@ body {
   border: 1px solid #ccc; /* Optional border */
 }
 
+/* Fire effect overlay */
+.fire-effect {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 700PX;
+  height: 600PX;
+  background-image: url('../images/fire.gif'); /* Replace with your fire image */
+  background-size: contain; /* Adjust to 'contain' to fit within the map area */
+  background-repeat: no-repeat;
+  background-position: right;
+  opacity: 0.5 ;
+  pointer-events: none; /* Allow clicks and interactions to pass through */
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Fire animation on hover */
+.map-container:hover .fire-effect {
+  opacity: 0;
+}
