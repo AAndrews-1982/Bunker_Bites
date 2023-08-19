@@ -3,15 +3,15 @@ body {
   font-family: Arial, sans-serif;
 
   /* Background - image settings */
-  background-image: url('../images/backg_image.jpg');
+  background-image:
   background-size: cover; /* Adjust size of the image to the size of screen*/
   background-repeat: no-repeat; /* avoid image repetition */
   opacity: 1 ;
 }
 
 .menu-bar {
-  background-color: #333;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .menu-list {
@@ -65,7 +65,7 @@ body {
 }
 
 .box img {
-  max-width: 20%;
+  max-width: 70%;
   height: auto;
 }
 
