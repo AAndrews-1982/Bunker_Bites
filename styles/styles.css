@@ -48,7 +48,6 @@ body {
   height: 100%;
   overflow: hidden;
   transform-style: preserve-3d; /* Enable hardware acceleration for smoother parallax */
-  object-fit: cover;
 }
 
 .parallax img {
@@ -94,7 +93,6 @@ body {
   grid-template-columns: repeat(3, 1fr); 
   gap: 10px; 
   padding: 0px 0px; /* Adjust top and bottom padding */
-  margin-top: 20px;
 }
 
 .box {
