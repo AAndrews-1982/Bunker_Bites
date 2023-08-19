@@ -51,7 +51,8 @@ body {
 
 .parallax img {
   position: absolute;
-  top: 0;
+  top: 20;
+  bottom: 10;
   left: 0;
   width: 100%;
   height: auto;
