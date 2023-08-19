@@ -65,7 +65,7 @@ body {
 }
 
 .box img {
-  max-width: 100%;
+  max-width: 20%;
   height: auto;
 }
 
@@ -97,27 +97,4 @@ body {
   margin: 20px auto; /* Add margin and center horizontally */
   background-color: #f0f0f0; /* Optional background color */
   border: 1px solid #ccc; /* Optional border */
-}
-
-/* Fire effect overlay */
-.fire-effect {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  width: 700PX;
-  height: 600PX;
-  background-image: url('../images/fire.gif'); /* Replace with your fire image */
-  background-size: contain; /* Adjust to 'contain' to fit within the map area */
-  background-repeat: no-repeat;
-  background-position: right;
-  opacity: 0.5 ;
-  pointer-events: none; /* Allow clicks and interactions to pass through */
-  transition: opacity 0.3s ease-in-out;
-}
-
-/* Fire animation on hover */
-.map-container:hover .fire-effect {
-  opacity: 0;
 }
