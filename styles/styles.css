@@ -34,9 +34,9 @@ body {
 }
 
 .banner {
-  position: relative;
+  position: absolute;
   overflow: hidden;
-  height: 1000px;
+  height: 1200px;
 }
 
 .parallax {
