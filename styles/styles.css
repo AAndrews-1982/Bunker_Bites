@@ -51,17 +51,17 @@ body {
 
 .parallax img {
   position: absolute;
-  top: 20;
-  bottom: 10;
+  top: 20px;
+  bottom: 10px;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   transform: translate3d(0, 0, 0); /* Enables hardware acceleration for smoother parallax */
   object-fit: cover; /* Ensure the image covers entire container */
 }
 
 /* Parallax effect */
-.banner::before {
+.banner:before {
   content: "";
   position: absolute;
   top: 0;
@@ -97,7 +97,7 @@ body {
 .box {
   width: 100%;
   margin: 0; 
-  padding: 10px;
+  padding: 0px;
   border: none;
   text-align: center;
 }
