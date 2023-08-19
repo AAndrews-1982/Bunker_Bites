@@ -21,7 +21,6 @@ body {
 .logo img {
   width: auto; /* Adjust this value for logo width */
   height: 100px;
-  padding-bottom: 50px;
 }
 
 .menu-list {
@@ -37,14 +36,14 @@ body {
 
 .banner {
   position: relative;
-  overflow: hidden;
+  overflow: auto;
   height: 1300px;
   padding-top: 150px;
   padding-bottom: 150px;
 }
 
 .parallax {
-  position: absolute;
+  position: auto;
   top: 0;
   left: 0;
   width: 100%;
@@ -54,7 +53,7 @@ body {
 }
 
 .parallax img {
-  position: absolute;
+  position: auto;
   top: 0px;
   bottom: 0px;
   left: 0;
@@ -67,7 +66,7 @@ body {
 /* Parallax effect */
 .banner:before {
   content: "";
-  position: absolute;
+  position: auto;
   top: 0;
   left: 0;
   width: 100%;
