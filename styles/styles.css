@@ -36,7 +36,6 @@ body {
 
 .banner {
   position: relative;
-  overflow: auto;
   height: 1300px;
   padding-top: 150px;
   padding-bottom: 150px;
@@ -70,7 +69,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 50%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.3); /* Optional overlay for better text readability */
   pointer-events: none;
 }
