@@ -38,6 +38,8 @@ body {
   position: relative;
   overflow: hidden;
   height: 1300px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .parallax {
