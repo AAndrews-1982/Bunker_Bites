@@ -92,7 +92,7 @@ body {
   display: grid;
   flex-wrap: wrap;
   grid-template-columns: repeat(3, 1fr); 
-  gap: 10px; 
+  gap: 0px; 
   padding: 0px 0px; /* Adjust top and bottom padding */
 }
 
