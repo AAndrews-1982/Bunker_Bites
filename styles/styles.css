@@ -19,8 +19,8 @@ body {
 }
 
 .logo img {
-  width: 100px; /* Adjust this value for logo width */
-  height: 50px;
+  width: auto; /* Adjust this value for logo width */
+  height: 100px;
 }
 
 .menu-list {
