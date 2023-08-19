@@ -41,47 +41,6 @@ body {
   padding-bottom: 0px;
 }
 
-.parallax {
-  position: auto;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  transform-style: preserve-3d; /* Enable hardware acceleration for smoother parallax */
-}
-
-.parallax img {
-  position: auto;
-  top: 0px;
-  bottom: 0px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translate3d(0, 0, 0); /* Enables hardware acceleration for smoother parallax */
-  object-fit: cover; /* Ensure the image covers entire container */
-}
-
-/* Parallax effect */
-.banner:before {
-  content: "";
-  position: auto;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.3); /* Optional overlay for better text readability */
-  pointer-events: none;
-}
-
-@media (min-width: 768px) {
-  .parallax img {
-    transform: translate3d(0, -50%, 0);
-    height: 100%; /*Adjust this value for the desired parrallax effect */
-  }
-}
-
-
 .banner h2 {
   position: relative; 
   z-index: 1;
