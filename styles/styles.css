@@ -21,6 +21,7 @@ body {
 .logo img {
   width: auto; /* Adjust this value for logo width */
   height: 100px;
+  padding-bottom: 50px;
 }
 
 .menu-list {
