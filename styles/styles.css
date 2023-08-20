@@ -1,12 +1,11 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-
-  /* Background - image settings */
-  background-image:
-  background-size: cover; /* Adjust size of the image to the size of screen*/
-  background-repeat: no-repeat; /* avoid image repetition */
-  opacity: 1 ;
+  /* The line below appears incomplete; you may want to add an actual image or remove it */
+  background-image: none; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
 }
 
 .menu-bar {
@@ -19,7 +18,7 @@ body {
 }
 
 .logo img {
-  width: auto; /* Adjust this value for logo width */
+  width: auto;
   height: 100px;
 }
 
@@ -29,7 +28,8 @@ body {
   gap: 20px;
 }
 
-.menu-list li a {letter-spacing: normal;
+.menu-list li a {
+  letter-spacing: normal;
   text-decoration: none;
   color: white;
 }
@@ -43,64 +43,60 @@ body {
 }
 
 .parallax {
-  position: auto;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  transform-style: preserve-3d; /* Enable hardware acceleration for smoother parallax */
+  transform-style: preserve-3d;
 }
 
 .parallax img {
-  position: auto;
-  top: 0px;
-  bottom: 0px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translate3d(0, 0, 0); /* Enables hardware acceleration for smoother parallax */
-  object-fit: cover; /* Ensure the image covers entire container */
-}
-
-/* Parallax effect */
-.banner:before {
-  content: "";
-  position: auto;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3); /* Optional overlay for better text readability */
+  transform: translate3d(0, 0, 0);
+  object-fit: cover;
+}
+
+.banner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
   pointer-events: none;
 }
 
 @media (min-width: 768px) {
   .parallax img {
     transform: translate3d(0, -50%, 0);
-    height: 100%; /*Adjust this value for the desired parrallax effect */
   }
 }
 
-
 .banner h2 {
-  position: relative; 
+  position: relative;
   z-index: 1;
-  color: black; 
+  color: black;
 }
 
 .container {
   display: grid;
   flex-wrap: wrap;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 10px; 
-  padding: 0px 0px; /* Adjust top and bottom padding */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 0;
 }
 
 .box {
   width: 100%;
-  margin: 0; 
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   border: none;
   text-align: center;
 }
@@ -110,40 +106,30 @@ body {
   height: auto;
 }
 
-/* Styles for the 'Add to Cart' button link */
 .btn-cart {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .btn-cart:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
-.banner {
-  position: relative;
-  overflow: auto;
-  height: 1300px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-/* Style for smaller square map container */
 .map-container {
-  position: relative;	
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px; /* Adjust height */
-  width: 700px; /* Adjust width */
-  margin: 20px auto; /* Add margin and center horizontally */
-  background-color: #f0f0f0; /* Optional background color */
-  border: 1px solid #ccc; /* Optional border */
+  height: 600px;
+  width: 700px;
+  margin: 20px auto;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
 }
