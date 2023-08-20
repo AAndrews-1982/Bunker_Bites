@@ -48,6 +48,8 @@ body {
   height: 100%;
   overflow: hidden;
   transform-style: preserve-3d;
+  background-size: cover;
+  background-position: center center;
 }
 
 .parallax img {
@@ -130,4 +132,9 @@ body {
   margin: 20px auto;
   background-color: #f0f0f0;
   border: 1px solid #ccc;
+}
+
+.banner-secondary {
+  width: 80vw; /* 80% of the viewport width */
+  margin: 0 auto; /* center the banner */
 }
