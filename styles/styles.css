@@ -34,6 +34,8 @@ body {
   color: white;
 }
 
+/* Banner Section */
+
 .banner {
   position: relative;
   overflow: hidden;
@@ -48,8 +50,6 @@ body {
   height: 100%;
   overflow: hidden;
   transform-style: preserve-3d;
-  background-size: cover;
-  background-position: center center;
 }
 
 .parallax img {
@@ -60,7 +60,6 @@ body {
   height: 100%;
   object-fit: cover;
   transform: translate3d(0, 0, 0);
-  
 }
 
 .banner:before {
@@ -80,6 +79,30 @@ body {
   }
 }
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+  background-color: #ffffff;
+  color: #fff;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+
 .banner h2 {
   position: relative;
   z-index: 1;
@@ -91,13 +114,16 @@ body {
   flex-wrap: wrap;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  padding: 0;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .box {
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 20;
   border: none;
   text-align: center;
 }
@@ -135,7 +161,24 @@ body {
   border: 1px solid #ccc;
 }
 
-.banner-secondary {
-  width: 100vw; /* 80% of the viewport width */
-  margin: 0 auto; /* center the banner */
+/* Footer Section */
+
+.footer {
+  background-color: #000000
+  color: #ffffff;
+  text-align: center;
+  padding: 40px;
 }
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  margin: 0 10px;
+  color: white;
+}
+
+/* Add Font Awesome CSS link to your HTML for the icons */
+/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> */
