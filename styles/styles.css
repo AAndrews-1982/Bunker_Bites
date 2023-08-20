@@ -107,7 +107,7 @@ body {
 }
 
 .btn-cart {
-  display: inline-block;
+  display: block;
   padding: 5px 10px;
   background-color: #333;
   color: #fff;
