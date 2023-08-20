@@ -89,7 +89,7 @@ body {
   text-align: center;
   padding: 40px;
   background-color: #ffffff;
-  color: #fff;
+  color: #000000;
 }
 
 h1 {
@@ -100,7 +100,6 @@ h1 {
 p {
   font-size: 18px;
 }
-
 
 
 .banner h2 {
@@ -165,7 +164,7 @@ p {
 
 .footer {
   background-color: #000000
-  color: #ffffff;
+  color:#ffffff;
   text-align: center;
   padding: 40px;
 }
