@@ -48,8 +48,6 @@ body {
   height: 100%;
   overflow: hidden;
   transform-style: preserve-3d;
-  background-size: cover;
-  background-position: center center;
 }
 
 .parallax img {
@@ -90,13 +88,16 @@ body {
   flex-wrap: wrap;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  padding: 0;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .box {
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 20;
   border: none;
   text-align: center;
 }
@@ -130,11 +131,6 @@ body {
   height: 600px;
   width: 700px;
   margin: 20px auto;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   border: 1px solid #ccc;
-}
-
-.banner-secondary {
-  width: 80vw; /* 80% of the viewport width */
-  margin: 0 auto; /* center the banner */
 }
