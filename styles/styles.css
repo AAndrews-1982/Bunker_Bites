@@ -18,8 +18,8 @@ body {
 }
 
 .logo img {
-  width: auto;
-  height: 100px;
+  width: 225;
+  height: 30px;
 }
 
 .menu-list {
@@ -85,11 +85,12 @@ body {
 
 .container {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .text-container {
   text-align: center;
-  padding: 20px;
+  padding: 50px;
   background-color: white;
 }
 
