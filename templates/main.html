@@ -78,7 +78,27 @@
 <header class="banner banner-secondary">
   <div class="parallax" style="background-image: url('../images/second_banner_img.jpg');"></div>
 </header>
-  
+
+<body>
+<title>Contact Us</title>
+</head>
+<body>
+  <div class="contact-form">
+    <h1>Contact Us</h1>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  </body>  
   
 
  <!--Adding Map Location -->
