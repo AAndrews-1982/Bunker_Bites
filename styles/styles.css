@@ -85,19 +85,9 @@ body {
   background-color: white; /* White background */
 }
 
-.container {
-  text-align: center;
-  padding: 20px;
-  background-color: white;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; /* This ensures the container takes up the full viewport height */
-}
-
 h1 {
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   color: #FF0000; /* Red color for title */
 }
 
