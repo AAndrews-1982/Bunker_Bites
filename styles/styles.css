@@ -191,7 +191,14 @@ button:hover {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fd0000
+}
+
+.contact-form p {
+  font-size: 16px;
+  color: #000000;
   margin-bottom: 20px;
 }
 
