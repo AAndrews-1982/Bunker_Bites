@@ -155,12 +155,12 @@ body {
   font-size: 36px;
   margin-bottom: 20px;
   color: #FF0000; /* Red color for title */
+  font-weight: bold;
 }
 
 .text-container p {
   font-size: 18px;
   color: #000000; /* Black color for paragraph */
-  font-weight: bold;
 }
 
 
