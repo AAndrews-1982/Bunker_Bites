@@ -102,8 +102,8 @@ Please note that this method is intended for testing and development purposes. I
 
 ## AUTHORS
 
-<br>Alton Andrews <xxx@holbertonstudents.com>
-<br>Josh Davis <xxx@holbertonstudents.com>
+<br>Alton Andrews <6139@holbertonstudents.com>
+<br>Josh Davis <6111@holbertonstudents.com>
 <br>Carlos Alarcon <6138@holbertonstudents.com>
 
 
