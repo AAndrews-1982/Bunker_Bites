@@ -248,10 +248,22 @@ button:hover {
   background-color: #0056b3;
 }
 
+.product {
+  text-align: center;
+  /* any other styles you want for this container */
+}
+
+.product {
+  text-align: center;
+  /* any other styles you want for this container */
+}
+
+
 .btn-cart {
   display: block;
-  padding: 3px 5px; /* Adjust Padding Here */
-  font-size: 10px; /* Adjust Font Size Here */
+  margin: 0 auto; /* centers the block-level element */
+  padding: 3px 5px;
+  font-size: 10px;
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -259,7 +271,9 @@ button:hover {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  width: 325px;
 }
+
 
 .btn-cart:hover {
   background-color: #ffb300;
