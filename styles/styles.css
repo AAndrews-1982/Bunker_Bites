@@ -131,7 +131,7 @@ body {
 }
 
 .box {
-  width: 50%;
+  width: 20%;
   margin: 0;
   padding: 20px;
   border: none;
@@ -139,7 +139,7 @@ body {
 }
 
 .box img {
-  max-width: 70%;
+  max-width: 100%;
   height: auto;
 }
 
