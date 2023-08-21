@@ -282,7 +282,7 @@ body {
 }
 
 .image img {
-  max-width: 100%;
+  max-width: 30%;
   height: auto;
 }
 
@@ -292,8 +292,8 @@ body {
 }
 
 h2 {
-  font-size: 24px;
-  color: #333;
+  font-size: 36px;
+  color: #ff0000;
 }
 
 p {
