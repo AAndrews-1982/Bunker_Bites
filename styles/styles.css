@@ -131,7 +131,7 @@ body {
 }
 
 .box {
-  width: 30%;
+  width: 100%;
   margin: 0;
   padding: 20px;
   border: none;
@@ -165,7 +165,7 @@ button:hover {
 
 .btn-cart {
   display: block;
-  padding: 3px 8px; /* Adjust Padding Here */
+  padding: 3px 5px; /* Adjust Padding Here */
   font-size: 10px; /* Adjust Font Size Here */
   background-color: #333;
   color: #fff;
