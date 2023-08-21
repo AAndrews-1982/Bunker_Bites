@@ -164,7 +164,7 @@ button:hover {
 }
 
 .btn-cart {
-  display: inline-block;
+  display: block;
   padding: 3px 5px; /* Adjust Padding Here */
   font-size: 10px; /* Adjust Font Size Here */
   background-color: #333;
