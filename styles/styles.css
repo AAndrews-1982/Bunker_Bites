@@ -52,9 +52,10 @@ body {
 .banner-secondary {
 margin: 0 auto;
 position: relative;
-height: 200vh;
+height: 127vh;
 padding: auto;
 }
+
 
 .parallax {
   position: absolute;
