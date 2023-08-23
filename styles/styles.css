@@ -47,8 +47,13 @@ body {
 
 .banner {
   position: relative;
-  overflow: hidden;
-  height: 120vh;
+}
+
+.banner-secondary {
+margin: 0 auto;
+position: relative;
+height: 200vh;
+padding: auto;
 }
 
 .parallax {
@@ -84,50 +89,7 @@ body {
   pointer-events: none;
 }
 
-.banner-secondary .apocalypse-tips {
-  position: absolute;
-  top: 15%;
-  left: 18%;
-  transform: translate(-50%, -50%);
-  color: rgb(0, 0, 0); 
-  font-size: 28px; /* Reducing size for clarity with multiple lines */
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); 
-  max-width: 35%; 
-  text-align: center;
-  font-weight: bold;
-  overflow: hidden; /* New line to cut off text if window is resized */
-  padding: 20px; /* Added padding for visual clarity */
-}
 
-.banner-secondary .apocalypse-tips2 {
-  position: absolute;
-  top: 50%;
-  left: 85%;
-  transform: translate(-50%, -50%);
-  color: rgb(0, 0, 0); 
-  font-size: 28px; /* Reducing size for clarity with multiple lines */
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); 
-  max-width: 35%; 
-  text-align: center;
-  font-weight: bold;
-  overflow: hidden; /* New line to cut off text if window is resized */
-  padding: 20px; /* Added padding for visual clarity */
-}
-
-.banner-secondary .apocalypse-tips3 {
-  position: absolute;
-  top: 75%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  color: rgb(0, 0, 0); 
-  font-size: 28px; /* Reducing size for clarity with multiple lines */
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); 
-  max-width: 35%; 
-  text-align: center;
-  font-weight: bold;
-  overflow: hidden; /* New line to cut off text if window is resized */
-  padding: 20px; /* Added padding for visual clarity */
-}
 
 @media (min-width: 768px) {
   .parallax img {
@@ -141,14 +103,16 @@ body {
 }
 
 .container {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .text-container {
+  margin: 0 auto;
   text-align: center;
   padding: 50px 100px;
   background-color: white;
+  max-width: 800px;
 }
 
 .text-container h1 {
@@ -293,17 +257,24 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 0px;
 }
 
+.container-areial image{
+  position: relative;
+  height: fit-content;
+}
 .image img {
   max-width: 40%;
   height: auto;
 }
 
 .content {
+  margin: 0 auto;
+  max-width: 600px;
   flex: 1;
-  padding: 20px;
+  padding: 0px;
+  position: relative;
 }
 
 h2 {
