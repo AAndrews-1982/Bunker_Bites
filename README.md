@@ -1,3 +1,5 @@
+<img width="1000" alt="BunkerBites" src="https://github.com/AAndrews-1982/Bunker_Bites/assets/116847683/58d41b14-f8d3-4a9d-b76e-bde676347641">
+
 # Bunker Bites
 
 # Project Context
